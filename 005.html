@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>005</title>
+
+	<style>
+		.outside {
+			height: 200px;
+			width: 350px;
+		}
+		.red {
+			background-color: red;
+		}
+		.blue {
+			background-color: blue;
+		}
+		.inside {
+			display: inline-block;
+			height: 100px;
+			width: 100px;
+			background-color: black;
+		}
+		.right {
+			margin-right: 50px;
+			margin-left: 25px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		.left {
+			margin-right: 25px;
+			margin-left: 50px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		body {
+			margin: 0 ;
+		}
+	</style>
+</head>
+<body>
+	<div class="outside red">
+		<div class="inside left"></div>
+		<div class="inside right"></div>
+	</div>
+	<div class="outside blue">
+		<div class="inside left"></div>
+		<div class="inside right"></div>
+	</div>
+
+</body>
+</html>
